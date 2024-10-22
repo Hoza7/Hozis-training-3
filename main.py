@@ -1,7 +1,8 @@
 # Functions
 
-def hello(name):
+def hello(name= "my friend"):
   print("hello " + name)
 
 hello("Beau")
 hello("Quincy")
+hello()
