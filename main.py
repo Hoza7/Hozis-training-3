@@ -1,8 +1,9 @@
 # Functions
 
-def hello(name):
-   if not name:
-     return
-   print("Hello " + name + "!")
-   
-hello("Beau")
+age = 8
+
+def test():
+  print(age)
+
+print(age) # 8
+test() # 8
