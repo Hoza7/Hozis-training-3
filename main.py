@@ -1,6 +1,10 @@
 # Functions
 
-def hello(name, age):
-  print("hello " + name + ", you are " + str(age) + " years old!")
+def change(value):
+  value["name"] = "Syd"
 
-hello("Beau", 39)
+val = {"name": "beau"}
+change(val)
+
+print(val)
+ 
