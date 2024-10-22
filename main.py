@@ -1,8 +1,7 @@
 # Functions
 
-def hello():
-  print("hello!")
+def hello(name):
+  print("hello " + name)
 
-hello()
-hello()
-hello()
+hello("Beau")
+hello("Quincy")
