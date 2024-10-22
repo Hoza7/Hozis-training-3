@@ -1,9 +1,18 @@
-# Functions
 
-age = 8
 
-def test():
-  print(age)
+def counter():
+    count = 0
 
-print(age) # 8
-test() # 8
+    def increment():
+        nonlocal count
+        count = count + 1
+        return count
+
+    return increment
+
+increment = counter()
+
+print(increment()) # 1
+print(increment()) # 2
+print(increment()) # 3
+
