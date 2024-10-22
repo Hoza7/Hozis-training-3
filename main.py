@@ -1,8 +1,6 @@
 # Functions
 
-def hello(name= "my friend"):
-  print("hello " + name)
+def hello(name, age):
+  print("hello " + name + ", you are " + str(age) + " years old!")
 
-hello("Beau")
-hello("Quincy")
-hello()
+hello("Beau", 39)
