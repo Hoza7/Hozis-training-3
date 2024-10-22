@@ -1,10 +1,8 @@
 # Functions
 
-def change(value):
-  value["name"] = "Syd"
-
-val = {"name": "beau"}
-change(val)
-
-print(val)
- 
+def hello(name):
+   if not name:
+     return
+   print("Hello " + name + "!")
+   
+hello("Beau")
